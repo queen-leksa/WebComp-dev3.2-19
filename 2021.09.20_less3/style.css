@@ -1,0 +1,22 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+custom-range {
+    width: 600px;
+    height: 16px;
+    border: 1px solid;
+    border-radius: 8px;
+    position: relative;
+}
+custom-range .thumb {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(0% - 11px);
+}
